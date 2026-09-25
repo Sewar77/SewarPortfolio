@@ -18,8 +18,8 @@ export function SiteHeader() {
     const onScroll = () => setScrolled(window.scrollY > 18);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
-    setTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
-    return () => window.removeEventListener("scroll", onScroll);
+    const frame = requestAnimationFrame(() => setTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark"));
+    return () => { cancelAnimationFrame(frame); window.removeEventListener("scroll", onScroll); };
   }, []);
 
   useEffect(() => {
