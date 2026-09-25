@@ -1,0 +1,6 @@
+import { Cloud, Database, KeyRound, Mail, Monitor, Server, Upload } from "lucide-react";
+import { Reveal } from "@/components/reveal";
+
+export function ArchitectureDiagram() {
+  return <Reveal className="architecture-diagram"><div className="architecture-header"><span>SYSTEM MAP / TRAINING CENTER</span><span>CONCEPTUAL ARCHITECTURE</span></div><div className="architecture-main"><div className="architecture-flow"><div className="architecture-node"><Monitor size={20}/><span><strong>User interface</strong><small>Next.js · administration views</small></span></div><span className="architecture-connector"/><div className="architecture-node"><Server size={20}/><span><strong>API layer</strong><small>Node.js · domain services</small></span></div><span className="architecture-connector"/><div className="architecture-node"><Database size={20}/><span><strong>Data layer</strong><small>PostgreSQL · relational model</small></span></div></div><div className="architecture-services"><span>CONNECTED CONCERNS</span><div><KeyRound size={16}/> Authentication &amp; roles</div><div><Mail size={16}/> Email workflows</div><div><Upload size={16}/> Upload handling</div><div><Cloud size={16}/> Deployment</div></div></div><p>Conceptual view of the main layers. Update this diagram if the production architecture differs.</p></Reveal>;
+}
