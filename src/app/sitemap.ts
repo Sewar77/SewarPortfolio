@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { portfolio } from "@/data/portfolio";
+export const dynamic = "force-static";
 const base = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3030";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
