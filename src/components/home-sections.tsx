@@ -19,7 +19,7 @@ import {
 import { portfolio } from "@/data/portfolio";
 import { Reveal } from "@/components/reveal";
 import { Terminal } from "@/components/terminal";
-import { SubhPreview, TrainingPreview } from "@/components/project-previews";
+import { AqdPreview, EduFlexPreview, SubhPreview, TrainingPreview } from "@/components/project-previews";
 
 export function Hero() {
   return (
@@ -116,130 +116,123 @@ export function Hero() {
 }
 
 export function SelectedWork() {
-  const [training, subh] = portfolio.projects;
+  const featuredProjects = portfolio.projects.map((project) => {
+    switch (project.slug) {
+      case "training-center":
+        return {
+          project, Preview: TrainingPreview,
+          className: "work-feature-training",
+          index: "01 — OPERATIONS PLATFORM",
+          type: "FULL STACK / MANAGEMENT",
+          label: "REAL INTERFACE · FICTIONAL TEST DATA",
+          arabicName: null,
+          hasCaseStudy: true,
+        };
+      case "subh":
+        return {
+          project, Preview: SubhPreview,
+          className: "work-feature-subh",
+          index: "02 — CONTENT PLATFORM",
+          type: "BILINGUAL / CONTENT",
+          label: "REAL INTERFACE · ADMIN ANALYTICS",
+          arabicName: "صُبح",
+          hasCaseStudy: true,
+        };
+      case "aqd":
+        return {
+          project, Preview: AqdPreview,
+          className: "work-feature-subh work-feature-aqd",
+          index: "03 — CONTRACT PLATFORM",
+          type: "LEGALTECH / COLLABORATION",
+          label: "REAL INTERFACE · IONBIT COLLABORATION",
+          arabicName: "عقد",
+          hasCaseStudy: false, // Not written until your actual responsibilities are confirmed.
+        };
+      case "eduflex":
+        return {
+          project, Preview: EduFlexPreview,
+          className: "work-feature-subh work-feature-eduflex",
+          index: "04 — ACADEMIC LMS",
+          type: "FULL STACK / EDUCATION",
+          label: "CONCEPTUAL PREVIEW · NOT A LIVE SCREENSHOT",
+          arabicName: null,
+          hasCaseStudy: true,
+        };
+    }
+  });
+
   return (
     <section id="work" className="work-section section-pad">
       <div className="shell">
         <Reveal className="section-intro work-intro">
           <div>
             <p className="kicker">01 / SELECTED WORK</p>
-            <h2>
-              Built for real
-              <br />
-              <span>complexity.</span>
-            </h2>
+            <h2>Built for real<br /><span>complexity.</span></h2>
           </div>
-          <p>
-            Two products with different surfaces and the same goal: make complex
-            work feel clear.
-          </p>
+          <p>Selected projects in training management, bilingual content, contract workflows, and learning technology.</p>
         </Reveal>
         <div className="work-list">
-          <Reveal>
-            <article className="work-feature work-feature-training">
-              <div className="work-feature-top">
-                <span className="project-index">01 — OPERATIONS PLATFORM</span>
-                <span className="project-type">FULL STACK / SAAS</span>
-              </div>
-              <div className="work-preview-wrap">
-                <TrainingPreview />
-                <span className="mockup-label">
-                  ILLUSTRATIVE UI · SAMPLE DATA
-                </span>
-              </div>
-              <div className="work-detail">
-                <div>
-                  <p className="work-category">{training.category}</p>
-                  <h3>{training.name}</h3>
-                  <p>{training.summary}</p>
-                  <div className="tag-row">
-                    {training.stack.map((item) => (
-                      <span key={item}>{item}</span>
-                    ))}
+          {featuredProjects.map(({ project, Preview, className, index, type, label, arabicName, hasCaseStudy }) => (
+            <Reveal key={project.slug}>
+              <article className={`work-feature ${className}`}>
+                <div className="work-feature-top">
+                  <span className="project-index">{index}</span>
+                  <span className="project-type">{type}</span>
+                </div>
+                <div className="work-preview-wrap">
+                  <Preview />
+                  <span className="mockup-label">{label}</span>
+                </div>
+                <div className="work-detail">
+                  <div>
+                    <p className="work-category">{project.category}</p>
+                    <h3>{project.name}{arabicName && <span className="subh-title-ar" lang="ar"> {arabicName}</span>}</h3>
+                    <p>{project.summary}</p>
+                    {project.stack.length > 0 && (
+                      <div className="tag-row">
+                        {project.stack.map((item) => <span key={item}>{item}</span>)}
+                      </div>
+                    )}
+                  </div>
+                  <div className="work-links">
+                    {hasCaseStudy ? (
+                      <Link className="text-link" href={`/work/${project.slug}`}>
+                        View case study <ArrowUpRight size={17} />
+                      </Link>
+                    ) : <span className="text-link">Case study coming soon</span>}
+                    <ProjectExternalLinks github={project.github} githubBackend={project.githubBackend} demo={project.demo} />
                   </div>
                 </div>
-                <div className="work-links">
-                  <Link className="text-link" href={`/work/${training.slug}`}>
-                    View case study <ArrowUpRight size={17} />
-                  </Link>
-                  <ProjectExternalLinks
-                    github={training.github}
-                    demo={training.demo}
-                  />
-                </div>
-              </div>
-            </article>
-          </Reveal>
-          <Reveal>
-            <article className="work-feature work-feature-subh">
-              <div className="work-feature-top">
-                <span className="project-index">02 — CONTENT PLATFORM</span>
-                <span className="project-type">BILINGUAL / COMMERCE</span>
-              </div>
-              <div className="work-preview-wrap">
-                <SubhPreview />
-                <span className="mockup-label">
-                  ILLUSTRATIVE UI · SAMPLE CONTENT
-                </span>
-              </div>
-              <div className="work-detail">
-                <div>
-                  <p className="work-category">{subh.category}</p>
-                  <h3>
-                    {subh.name}
-                    <span className="subh-title-ar" lang="ar">
-                      {" "}
-                      صُبح
-                    </span>
-                  </h3>
-                  <p>{subh.summary}</p>
-                  <div className="tag-row">
-                    {subh.stack.map((item) => (
-                      <span key={item}>{item}</span>
-                    ))}
-                  </div>
-                </div>
-                <div className="work-links">
-                  <Link className="text-link" href={`/work/${subh.slug}`}>
-                    View case study <ArrowUpRight size={17} />
-                  </Link>
-                  <ProjectExternalLinks github={subh.github} demo={subh.demo} />
-                </div>
-              </div>
-            </article>
-          </Reveal>
+              </article>
+            </Reveal>
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-export function ProjectExternalLinks({
-  github,
-  demo,
-}: {
+export function ProjectExternalLinks({ github, githubBackend, demo }: {
   github: string | null;
+  githubBackend?: string | null;
   demo: string | null;
 }) {
   return (
     <div className="external-project-links">
-      {github ? (
+      {github && (
         <a href={github} target="_blank" rel="noreferrer">
-          GitHub <ArrowUpRight size={14} />
+          {githubBackend ? "Frontend code" : "GitHub"} <ArrowUpRight size={14} />
         </a>
-      ) : (
-        <span title="Add the project GitHub URL in src/data/portfolio.ts">
-          GitHub · link pending
-        </span>
       )}
-      {demo ? (
+      {githubBackend && (
+        <a href={githubBackend} target="_blank" rel="noreferrer">
+          Backend code <ArrowUpRight size={14} />
+        </a>
+      )}
+      {demo && (
         <a href={demo} target="_blank" rel="noreferrer">
           Live demo <ArrowUpRight size={14} />
         </a>
-      ) : (
-        <span title="Add the live demo URL in src/data/portfolio.ts">
-          Live demo · link pending
-        </span>
       )}
     </div>
   );

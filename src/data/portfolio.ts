@@ -1,19 +1,20 @@
-/** Edit this file to update portfolio content and links. Null means not supplied yet. */
+/** Edit portfolio content and links here. Null means not publicly available. */
 export const portfolio = {
   name: "Sewar Al-Shorman",
   role: "Full Stack Developer & Software Development Trainer",
   location: "Jordan",
-  bio: "I build complete products, from data model and API to the interface people use.",
+  bio: "I design and build full-stack applications, connecting databases, backend services, and intuitive user interfaces to solve real-world problems.",
   socials: {
     github: "https://github.com/Sewar77",
-    linkedin: "https://www.linkedin.com/in/sewar-jihad/", 
-    email: "sewarjihad793@gmail.com", // EMAIL, for example hello@example.com
-    cv: "https://drive.google.com/file/d/1w_PSK5J8uSoy-oMtQ_edEs8GGMgBwwUH/view?usp=sharing"
+    linkedin: "https://www.linkedin.com/in/sewar-jihad/",
+    email: "sewarjihad793@gmail.com",
+    cv: "https://drive.google.com/file/d/1w_PSK5J8uSoy-oMtQ_edEs8GGMgBwwUH/view?usp=sharing",
   },
   skills: [
     {
       title: "Building interfaces",
-      description: "The parts people see and use.",
+      description:
+        "Creating responsive, accessible, and maintainable interfaces.",
       items: [
         "React",
         "Next.js",
@@ -27,7 +28,7 @@ export const portfolio = {
     },
     {
       title: "Building systems",
-      description: "The logic that keeps products useful.",
+      description: "Developing backend services, APIs, and application logic.",
       items: [
         "Node.js",
         "Express.js",
@@ -41,7 +42,7 @@ export const portfolio = {
     },
     {
       title: "Working with data",
-      description: "Models that make complex work manageable.",
+      description: "Designing relational and NoSQL databases.",
       items: [
         "PostgreSQL",
         "MongoDB",
@@ -53,7 +54,8 @@ export const portfolio = {
     },
     {
       title: "Development workflow",
-      description: "From local changes to production.",
+      description:
+        "Building, testing, integrating, and deploying applications.",
       items: [
         "Git",
         "GitHub",
@@ -72,7 +74,7 @@ export const portfolio = {
     "Problem solving",
     "Software architecture",
     "Backend security",
-    "Performance",
+    "Performance optimization",
   ],
   experience: [
     {
@@ -81,31 +83,91 @@ export const portfolio = {
       period: "Jan 2026 — Present",
       location: "Jordan",
       description:
-        "Developing full-stack business applications and teaching modern web development. My work spans interfaces, APIs, PostgreSQL, access control, and deployment; in the classroom, I mentor students and explain engineering decisions clearly.",
+        "Developing training-management applications using Next.js, TypeScript, and PostgreSQL, including scheduling, financial management, and backend functionality. I also teach and mentor students in full-stack web development.",
     },
   ],
   projects: [
     {
       slug: "training-center",
       number: "01",
-      name: "Training Center Management Platform",
-      category: "Operations platform · Full stack",
+      name: "SDK Training Center",
+      category: "Business Management · Full Stack",
       summary:
-        "A connected workspace for the moving parts of a training center: people, courses, schedules, classrooms, and finances.",
-      stack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL"],
-      github: null as string | null, // PROJECT_GITHUB_URLS.trainingCenter
-      demo: null as string | null, // PROJECT_DEMO_URLS.trainingCenter
+        "A management system that connects student records, courses, trainers, class scheduling, financial contracts, and payment follow-up in one administrative workspace.",
+      stack: ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL"],
+      github: null as string | null,
+      githubBackend: null as string | null,
+      demo: "https://sdkjordan.com",
     },
     {
       slug: "subh",
       number: "02",
-      name: "Subh",
-      category: "Educational content · Commerce",
+      name: "Subh — Books & Workshops",
+      category: "Bilingual Content · Full Stack",
       summary:
-        "A bilingual platform for educational books and content, with a structured publishing workflow behind the storefront.",
-      stack: ["React", "Material UI", "Node.js", "Express", "PostgreSQL"],
-      github: null as string | null, // PROJECT_GITHUB_URLS.subh
-      demo: null as string | null, // PROJECT_DEMO_URLS.subh
+        "An Arabic-English book and workshop platform with structured content management, catalog administration, media uploads, and analytics.",
+      stack: [
+        "React",
+        "Material UI",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Cloudinary",
+      ],
+      github: "https://github.com/Sewar77/subh" as string | null,
+      githubBackend: null as string | null,
+      demo: "https://subh-center.onrender.com/" as string | null,
+    },
+    {
+      slug: "aqd",
+      number: "03",
+      name: "Aqd — Contract Management Platform",
+      category: "LegalTech · Collaborative Project",
+      summary:
+        "An Arabic RTL contract-management platform developed in collaboration with Ionbit. Its interface includes contract and template management and administrative workflows.",
+      stack: [
+        "React",
+        "Vite",
+        "Material UI",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "JWT",
+        "Socket.io",
+        "Cookies",
+      ],
+      github: null as string | null,
+      githubBackend: null as string | null,
+      demo: null as string | null,
+    },
+    {
+      slug: "eduflex",
+      number: "04",
+      name: "EduFlex — Learning Management System",
+
+      category: "Education Technology · Academic Full Stack Project",
+
+      summary:
+        "An HTU academic training project with dedicated " +
+        "student, instructor, and admin experiences for " +
+        "course enrollment, lesson progress, assignments, " +
+        "quizzes, course review, and learning reports.",
+
+      stack: [
+        "React",
+        "Vite",
+        "Material UI",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "JWT",
+      ],
+
+      github: "https://github.com/Sewar77/EduFlex",
+
+      githubBackend: "https://github.com/Sewar77/EduFlex-LMS",
+
+      demo: null,
     },
   ],
 } as const;
