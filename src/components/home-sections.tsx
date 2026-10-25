@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowDown,
   ArrowRight,
@@ -562,7 +563,10 @@ export function Footer() {
   return (
     <footer className="site-footer">
       <div className="shell footer-inner">
-        <span>Designed &amp; built by Sewar Al-Shorman.</span>
+        <span className="footer-credit">
+          <Image src="/icon.svg" alt="" width={22} height={22} /> Designed &amp;
+          built by Sewar Al-Shorman.
+        </span>
         <span>© {new Date().getFullYear()}</span>
         <div>
           <a href={portfolio.socials.github} target="_blank" rel="noreferrer">

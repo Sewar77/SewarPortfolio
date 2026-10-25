@@ -37,6 +37,8 @@ npm run lint
 npm run build
 ```
 
+Run `npm run format` to format the source files.
+
 No backend, database, API keys, or secrets are required for this site.
 
 ## Customize before publishing
