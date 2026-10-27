@@ -1,4 +1,4 @@
-# 👩🏻‍💻 Sewar Al-Shorman — Developer Portfolio
+# 👩🏻‍💻 Sewar Al-Shorman — Portfolio
 
 <div align="center">
 
@@ -6,73 +6,77 @@
 
 Building modern web applications, creating practical learning experiences, and continuously growing as a software engineer.
 
-📍 Jordan
+📍 Jordan 🇯🇴
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Website-black?style=for-the-badge\&logo=vercel)](https://YOUR-PORTFOLIO-URL.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Website-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://sewarportfolio.onrender.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sewar_Al--Shorman-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/sewar-jihad)
 [![GitHub](https://img.shields.io/badge/GitHub-Sewar77-181717?style=for-the-badge\&logo=github)](https://github.com/Sewar77)
+
+### 🌐 [sewarportfolio.onrender.com](https://sewarportfolio.onrender.com/)
 
 </div>
 
 ---
 
-## ✨ About This Portfolio
+## ✨ About
 
-This is my personal developer portfolio, built to showcase my experience as a **Full Stack Developer and Software Development Trainer**.
+Welcome to my personal portfolio.
 
-The website highlights my development work, technical skills, professional experience, teaching background, case studies, current areas of learning, GitHub activity, and ways to contact me.
+I’m **Sewar Al-Shorman**, a **Full Stack Developer and Software Development Trainer** based in Jordan.
 
-The goal was to create something that feels more like a real software product than a traditional static portfolio.
+I work mainly with modern JavaScript and TypeScript technologies, building full-stack applications using **React, Next.js, Node.js, Express, PostgreSQL, REST APIs**, and related tools.
 
-It was built with a strong focus on:
+Alongside development, I also teach programming and full-stack development, helping students understand both the technical concepts and the practical thinking behind building real applications.
 
-* Clean architecture
-* Performance
-* Accessibility
-* Responsive design
-* Reusable components
-* Modern UI/UX
-* Clear project storytelling
-* Maintainable TypeScript code
+This portfolio was created to showcase my:
+
+* 💻 Software development experience
+* 🚀 Selected projects
+* 🧠 Technical skills
+* 💼 Professional experience
+* 👩🏻‍🏫 Training experience
+* 📚 Continuous learning
+* 🐙 GitHub work
+* 📩 Contact information
 
 ---
 
 ## 🚀 Live Portfolio
 
-### [→ Visit My Portfolio](https://sewarportfolio.onrender.com/)
+### 👉 [Visit My Portfolio](https://sewarportfolio.onrender.com/)
 
-> Replace `https://YOUR-PORTFOLIO-URL.com` with the final deployed domain.
+**Live URL:**
+https://sewarportfolio.onrender.com/
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Portfolio Preview
 
 <!--
-Add your final screenshot here after deploying the website.
-
-Example:
+Add a screenshot later:
 
 ![Sewar Al-Shorman Portfolio](public/portfolio-screenshot.png)
 -->
 
 The homepage includes:
 
-* 💻 Interactive developer terminal
-* 🚀 Selected projects
-* 👩🏻‍💻 About me
-* 🧰 Technical skills
-* 💼 Professional experience
-* 👩🏻‍🏫 Training & teaching experience
-* 📚 Current areas of study
-* 🐙 GitHub section
-* 📩 Contact section
+* Interactive developer terminal
+* Selected work
+* About section
+* Technical skills
+* Professional experience
+* Teaching experience
+* Current learning areas
+* GitHub section
+* Contact section
+* Detailed project case studies
 
-Two detailed case studies are also available:
+Two dedicated case studies are currently available:
 
 * `/work/training-center`
 * `/work/subh`
 
-> Product previews currently use custom HTML/CSS concepts with sample data. They are not screenshots of production systems or evidence of project results.
+> Project previews are custom HTML/CSS representations using sample data. They are not screenshots of production systems or claims of actual project results.
 
 ---
 
@@ -81,31 +85,150 @@ Two detailed case studies are also available:
 <div align="center">
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge\&logo=framer\&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge\&logo=vercel\&logoColor=white)
 
 </div>
 
-### Core Technologies
+### Portfolio Technologies
 
-| Technology        | Usage                                |
-| ----------------- | ------------------------------------ |
-| **Next.js**       | Application framework and App Router |
-| **React**         | Component-based user interfaces      |
-| **TypeScript**    | Type-safe application development    |
-| **Tailwind CSS**  | Styling and responsive design        |
-| **Framer Motion** | Animations and transitions           |
-| **Lucide React**  | Icons                                |
-| **Vercel**        | Production deployment                |
+| Technology    | Purpose                              |
+| ------------- | ------------------------------------ |
+| Next.js       | Application framework and App Router |
+| React         | Component-based UI                   |
+| TypeScript    | Type-safe development                |
+| Tailwind CSS  | Styling and responsive design        |
+| Framer Motion | Animations and transitions           |
+| Lucide React  | Icons                                |
+| Render        | Production hosting                   |
+
+---
+
+# 💻 Development Skills
+
+## Frontend
+
+* React.js
+* Next.js
+* TypeScript
+* JavaScript ES6+
+* HTML5
+* CSS3
+* Tailwind CSS
+* Material UI
+* Bootstrap
+* Responsive Design
+* React Query
+* Redux Toolkit
+* Zustand
+* React Hook Form
+* Zod
+
+## Backend
+
+* Node.js
+* Express.js
+* REST APIs
+* Authentication & Authorization
+* JWT
+* HTTP-only Cookies
+* Role-Based Access Control
+* Joi Validation
+* File Uploads
+* Cloudinary
+
+## Databases
+
+* PostgreSQL
+* MongoDB
+* Mongoose
+* Prisma
+* SQL
+* Relational Database Design
+
+## Tools
+
+* Git
+* GitHub
+* Postman
+* Docker
+* Render
+* Vercel
+* Neon
+* VS Code
+
+---
+
+# 🌟 Featured Projects
+
+## 🏢 SDK Training Center Platform
+
+A training-center management system developed as part of my professional work.
+
+The platform supports training and administrative workflows while focusing on maintainable architecture, structured data, and real business requirements.
+
+### Technologies
+
+`Next.js` · `TypeScript` · `React` · `PostgreSQL` · `REST APIs`
+
+### Case Study
+
+👉 [View Training Center Case Study](https://sewarportfolio.onrender.com/work/training-center)
+
+---
+
+## 📚 Subh
+
+A bilingual Arabic/English platform designed for selling books and educational materials while supporting workshops and content management.
+
+The project includes frontend and backend development, authentication, administration functionality, structured content, and e-commerce-related features.
+
+### Technologies
+
+`React` · `Node.js` · `Express.js` · `PostgreSQL` · `Material UI` · `JWT` · `REST APIs`
+
+### GitHub
+
+👉 [View Subh Repository](https://github.com/Sewar77/subh)
+
+### Case Study
+
+👉 [View Subh Case Study](https://sewarportfolio.onrender.com/work/subh)
+
+---
+
+# 👩🏻‍🏫 Software Development Training
+
+Alongside development, I work as a **Software Development Trainer**.
+
+My teaching experience includes:
+
+* HTML & CSS
+* JavaScript
+* DOM
+* React
+* Node.js
+* Express.js
+* PostgreSQL
+* MongoDB
+* REST APIs
+* Authentication
+* JWT & Cookies
+* Database design
+* Git & GitHub
+* Secure development practices
+* Full-stack application development
+
+I enjoy helping students understand not only **how to write code**, but also **why the code works and how the different parts of an application connect together**.
 
 ---
 
 # 🧠 Architecture
 
-The portfolio uses the **Next.js App Router** and keeps content, presentation, and reusable components clearly separated.
+The portfolio uses the **Next.js App Router** with a structure designed to keep content, components, and application logic organized.
 
 ```text
 src/
@@ -140,198 +263,54 @@ public/
 └── cv.pdf
 ```
 
-### Rendering Strategy
+Most of the application uses **Server Components**.
 
-Most of the website is rendered using **Server Components**.
-
-Client Components are only used when browser-side interaction is actually required, including:
+Client Components are used only when browser interaction is required, including:
 
 * Navigation state
 * Theme behavior
 * Interactive terminal
-* Scroll-based animations
+* Scroll animations
 * Interactive UI elements
-
-This keeps unnecessary client-side JavaScript to a minimum.
-
----
-
-# 🌟 Featured Projects
-
-## 🏢 SDK Training Center Platform
-
-A professional training-center management platform developed as part of my work with SDK Training Center.
-
-The system includes functionality across training and administrative workflows, with emphasis on structured data, maintainability, and practical business requirements.
-
-### Technologies
-
-`Next.js` · `TypeScript` · `PostgreSQL` · `React` · `REST APIs`
-
-### Case Study
-
-[`/work/training-center`](https://YOUR-PORTFOLIO-URL.com/work/training-center)
-
----
-
-## 📚 Subh
-
-A bilingual Arabic/English platform designed for selling books and educational materials and supporting workshops and content management.
-
-The system includes frontend, backend, authentication, admin functionality, structured content management, and e-commerce-related features.
-
-### Technologies
-
-`React` · `Node.js` · `Express.js` · `PostgreSQL` · `Material UI` · `JWT` · `REST APIs`
-
-### Repository
-
-[View Subh on GitHub →](https://github.com/Sewar77/subh)
-
-### Case Study
-
-[`/work/subh`](https://YOUR-PORTFOLIO-URL.com/work/subh)
-
----
-
-# 👩🏻‍💻 Development Experience
-
-My development work focuses primarily on modern JavaScript and TypeScript applications.
-
-### Frontend
-
-* React.js
-* Next.js
-* TypeScript
-* JavaScript ES6+
-* Tailwind CSS
-* Material UI
-* Bootstrap
-* Responsive Design
-* React Query
-* Redux Toolkit
-* Zustand
-* React Hook Form
-* Zod
-
-### Backend
-
-* Node.js
-* Express.js
-* REST APIs
-* Authentication & Authorization
-* JWT
-* HTTP-only Cookies
-* Role-Based Access Control
-* Joi Validation
-* File Uploads
-* Cloudinary
-
-### Database
-
-* PostgreSQL
-* MongoDB
-* Mongoose
-* Prisma
-* SQL
-* Relational database design
-
-### Development Tools
-
-* Git
-* GitHub
-* Postman
-* Docker
-* Vercel
-* Render
-* Neon
-* VS Code
-
----
-
-# 👩🏻‍🏫 Teaching & Training
-
-Alongside software development, I work as a **Software Development Trainer**.
-
-My teaching experience includes topics such as:
-
-* HTML & CSS
-* JavaScript
-* DOM
-* React
-* Node.js
-* Express.js
-* PostgreSQL
-* MongoDB
-* REST APIs
-* Authentication
-* JWT & Cookies
-* Database design
-* Git & GitHub
-* Secure development
-* Full-stack application development
-
-I enjoy turning technical concepts into practical exercises and helping students understand not only **how** something works, but **why** it works.
 
 ---
 
 # ⚡ Interactive Terminal
 
-The portfolio includes a small interactive terminal inspired by the developer workflow.
+The homepage includes a small interactive developer terminal.
 
-Visitors can use commands to explore different areas of the portfolio in a more interactive way.
+Visitors can use commands to explore parts of the portfolio in a more interactive way.
 
-The terminal is intentionally lightweight and built directly into the application rather than using an external terminal library.
+The terminal is intentionally lightweight and built directly into the application without depending on a large external terminal library.
 
 ---
 
-# 📂 Project Structure
-
-### `src/app/`
-
-Contains:
-
-* App Router pages
-* Global styles
-* Metadata
-* Open Graph image configuration
-* Sitemap
-* Robots configuration
-* Web manifest
-
-### `src/components/`
-
-Contains reusable UI components such as:
-
-* Navigation
-* Animated reveals
-* Project previews
-* Homepage sections
-* Architecture visualizations
+# 📂 Important Files
 
 ### `src/data/portfolio.ts`
 
-The main editable portfolio configuration.
+Contains most editable portfolio information, including:
 
-It contains:
-
-* Personal information
+* Personal details
 * Social links
 * Skills
 * Experience
 * Projects
 * External URLs
-* Portfolio content
 
-Most portfolio information can be updated from this file without modifying page components.
+This allows portfolio content to be updated without modifying the page components directly.
 
 ### `src/data/case-studies.ts`
 
-Contains the long-form project case studies displayed under `/work/[slug]`.
+Contains the detailed project case studies used by:
+
+```text
+/work/[slug]
+```
 
 ### `public/projects/`
 
-Reserved for real project screenshots and media.
+Reserved for project screenshots and related media.
 
 ```text
 public/projects/
@@ -341,11 +320,11 @@ public/projects/
 
 ---
 
-# 💻 Running the Project Locally
+# 🚀 Run Locally
 
 ### Requirements
 
-* Node.js **20.9+**
+* Node.js 20.9+
 * npm
 
 Clone the repository:
@@ -354,7 +333,7 @@ Clone the repository:
 git clone https://github.com/Sewar77/SewarPortfolio.git
 ```
 
-Move into the project:
+Enter the project:
 
 ```bash
 cd SewarPortfolio
@@ -366,7 +345,7 @@ Install dependencies:
 npm install
 ```
 
-Start the development server:
+Start development:
 
 ```bash
 npm run dev
@@ -380,9 +359,9 @@ http://localhost:3000
 
 ---
 
-# ✅ Before Production
+# ✅ Production Checks
 
-Run the following checks before deploying:
+Before deploying:
 
 ```bash
 npm run typecheck
@@ -390,19 +369,11 @@ npm run lint
 npm run build
 ```
 
-Format the source code when needed:
+Format the project:
 
 ```bash
 npm run format
 ```
-
-The portfolio does **not** require:
-
-* Backend server
-* Database
-* API keys
-* Authentication
-* Private secrets
 
 ---
 
@@ -417,208 +388,72 @@ Create:
 Add:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://your-domain.com
+NEXT_PUBLIC_SITE_URL=https://sewarportfolio.onrender.com
 ```
 
-`NEXT_PUBLIC_SITE_URL` is used for:
+This value is used for:
 
 * Canonical URLs
 * Metadata
-* Open Graph information
 * Sitemap
 * Structured data
-* Social sharing
-
-An example configuration is available in:
-
-```text
-.env.example
-```
-
----
-
-# 🎨 Customization
-
-Before publishing the portfolio, review the following areas.
-
-### 1. Personal Links
-
-Update:
-
-```text
-src/data/portfolio.ts
-```
-
-Set the correct:
-
-```ts
-socials.email
-socials.linkedin
-socials.cv
-```
-
-Add your CV to:
-
-```text
-public/cv.pdf
-```
-
-Then configure:
-
-```ts
-cv: "/cv.pdf"
-```
-
-A hosted CV URL can also be used.
-
----
-
-### 2. Project Links
-
-Add the real GitHub and live-demo URLs for each project in:
-
-```text
-src/data/portfolio.ts
-```
-
-Until real links are provided, the interface intentionally avoids sending users to broken placeholder destinations.
-
----
-
-### 3. Case Studies
-
-Review:
-
-```text
-src/data/case-studies.ts
-```
-
-Every technical statement should reflect the real implementation of the project.
-
-Avoid presenting conceptual UI previews as production functionality unless the corresponding feature actually exists.
-
----
-
-### 4. Real Project Screenshots
-
-Add screenshots to:
-
-```text
-public/projects/training-center/
-```
-
-and:
-
-```text
-public/projects/subh/
-```
-
-Then replace:
-
-```tsx
-<TrainingPreview />
-```
-
-and:
-
-```tsx
-<SubhPreview />
-```
-
-with optimized Next.js images:
-
-```tsx
-import Image from "next/image";
-```
-
-Always provide:
-
-* Meaningful `alt` text
-* Image dimensions
-
-or use:
-
-```tsx
-fill
-```
-
-inside a properly sized container.
-
----
-
-### 5. Production URL
-
-Set:
-
-```env
-NEXT_PUBLIC_SITE_URL=https://your-final-domain.com
-```
-
-before the final production deployment.
+* Social previews
 
 ---
 
 # ☁️ Deployment
 
-The project is designed to deploy easily on **Vercel**.
+The portfolio is currently deployed on **Render**.
 
-### Deploy with Vercel
+### Production URL
 
-1. Push the repository to GitHub.
-2. Open [Vercel](https://vercel.com/new).
-3. Import the repository.
-4. Add:
+👉 **https://sewarportfolio.onrender.com/**
+
+When deploying to another provider or custom domain, update:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://your-domain.com
+NEXT_PUBLIC_SITE_URL=https://your-new-domain.com
 ```
 
-5. Deploy.
-
-Vercel automatically detects the Next.js configuration.
-
-After connecting a custom domain, update `NEXT_PUBLIC_SITE_URL` and redeploy so that canonical URLs, the sitemap, metadata, and social previews use the correct production domain.
+Then rebuild and redeploy the project.
 
 ---
 
 # ♿ Accessibility
 
-Accessibility was considered throughout the portfolio.
+The portfolio includes accessibility considerations such as:
 
-The site includes:
-
-* Semantic HTML sections
+* Semantic sections
 * Keyboard-accessible navigation
 * Visible focus states
 * Skip-to-content navigation
 * Reduced-motion support
-* Accessible interactive controls
-* Descriptive labels
+* Keyboard-operable interactive elements
 * Responsive layouts
-* Keyboard-operable terminal controls
+* Accessible labels
 
 ---
 
 # ⚡ Performance
 
-The portfolio is designed to remain lightweight.
+The website was designed to remain lightweight and responsive.
 
 Performance considerations include:
 
 * Server Components by default
-* Limited Client Components
-* No unnecessary remote content dependencies
-* CSS-based project previews
+* Limited use of Client Components
+* Reusable components
 * Optimized rendering
+* CSS-based project previews
+* Minimal unnecessary JavaScript
 * Responsive assets
-* Minimal JavaScript where possible
-* Next.js production optimizations
+* Next.js optimizations
 
-When real screenshots are added, they should be compressed and rendered using `next/image`.
+When real project screenshots are added, they should be compressed and displayed using `next/image`.
 
 ---
 
-# 🔒 Privacy & Security
+# 🔒 Security & Privacy
 
 This portfolio does not require:
 
@@ -626,47 +461,51 @@ This portfolio does not require:
 * User accounts
 * Database credentials
 * Private API keys
-* Sensitive environment variables
+* Sensitive secrets
 
-Only public portfolio information is included in the application.
+Only public professional information is included.
 
 ---
 
-# 📈 Future Improvements
+# 🔮 Future Improvements
 
 Planned improvements include:
 
 * Real product screenshots
-* More project case studies
-* Additional project demos
+* Additional project case studies
+* More live project demos
 * Improved project storytelling
 * Performance monitoring
 * Additional accessibility testing
-* Expanded technical writing
-* More detailed GitHub integration
+* Technical writing
+* More GitHub integration
 
 ---
 
-# 🤝 Let's Connect
+# 🤝 Open to Opportunities
 
-I'm open to opportunities involving:
+I’m interested in opportunities involving:
 
 * Full Stack Development
 * Frontend Development
-* React / Next.js Development
+* React Development
+* Next.js Development
 * JavaScript / TypeScript Development
 * Software Engineering
-* Programming & Software Development Training
+* Programming Training
+* Software Development Training
+
+---
 
 <div align="center">
 
-### 📬 Get in Touch
+# 📬 Let's Connect
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Website-000000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://sewarportfolio.onrender.com/)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/sewar-jihad)
 
 [![GitHub](https://img.shields.io/badge/GitHub-View_my_work-181717?style=for-the-badge\&logo=github)](https://github.com/Sewar77)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Website-black?style=for-the-badge\&logo=vercel)](https://YOUR-PORTFOLIO-URL.com)
 
 ---
 
@@ -675,5 +514,7 @@ I'm open to opportunities involving:
 **Full Stack Developer · Software Development Trainer**
 
 Jordan 🇯🇴
+
+🌐 **[sewarportfolio.onrender.com](https://sewarportfolio.onrender.com/)**
 
 </div>
