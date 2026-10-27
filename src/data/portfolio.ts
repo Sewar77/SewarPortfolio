@@ -8,7 +8,7 @@ export const portfolio = {
     github: "https://github.com/Sewar77",
     linkedin: "https://www.linkedin.com/in/sewar-jihad/",
     email: "sewarjihad793@gmail.com",
-    cv: "https://drive.google.com/file/d/1w_PSK5J8uSoy-oMtQ_edEs8GGMgBwwUH/view?usp=sharing",
+    cv: "https://drive.google.com/file/d/1Fegtx72_gwerGTG1ByqkZvwt6E6FIq1_/view?usp=sharing",
   },
   skills: [
     {
