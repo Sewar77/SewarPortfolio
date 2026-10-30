@@ -146,7 +146,7 @@ export function SelectedWork() {
           type: "LEGALTECH / COLLABORATION",
           label: "REAL INTERFACE · IONBIT COLLABORATION",
           arabicName: "عقد",
-          hasCaseStudy: false, // Not written until your actual responsibilities are confirmed.
+          hasCaseStudy: true,
         };
       case "eduflex":
         return {

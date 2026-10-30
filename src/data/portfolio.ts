@@ -144,15 +144,12 @@ export const portfolio = {
       slug: "eduflex",
       number: "04",
       name: "EduFlex — Learning Management System",
-
       category: "Education Technology · Academic Full Stack Project",
-
       summary:
         "An HTU academic training project with dedicated " +
         "student, instructor, and admin experiences for " +
         "course enrollment, lesson progress, assignments, " +
         "quizzes, course review, and learning reports.",
-
       stack: [
         "React",
         "Vite",
@@ -162,11 +159,8 @@ export const portfolio = {
         "PostgreSQL",
         "JWT",
       ],
-
       github: "https://github.com/Sewar77/EduFlex",
-
       githubBackend: "https://github.com/Sewar77/EduFlex-LMS",
-
       demo: null,
     },
   ],

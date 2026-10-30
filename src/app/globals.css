@@ -2815,7 +2815,26 @@ html[data-theme="light"] .contribution-art i {
   font-weight: 700;
   letter-spacing: 1px;
 }
+.case-image-preview {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
 
+.case-project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.case-preview-caption {
+  margin-top: 14px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
 /* Disclaimer */
 
 .sdk-preview-disclaimer {

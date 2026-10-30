@@ -1,9 +1,9 @@
+.qa
 node_modules
 .next
 out
 .env*
 !.env.example
 *.tsbuildinfo
-.qa
 CLAUDE.md
 AGENTS.md
